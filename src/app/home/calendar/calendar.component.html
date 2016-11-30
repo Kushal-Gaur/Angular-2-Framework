@@ -1,0 +1,24 @@
+
+ <h2>Simple Date Picker</h2>
+<br>
+	<div class="form-group row">
+	<label for="example-month-input" class="col-xs-2 col-form-label">Pick a date</label>
+	<div class="col-xs-10">
+		<input type="text" class="form-control"   id="datePicker" />
+		<div #datePicker></div>
+		</div>
+		  <br><br>
+		</div>
+	<div class="form-group row">
+		  <label for="example-month-input" class="col-xs-2 col-form-label">Pick a time</label>
+		  <div class="col-xs-10">
+		<timepicker [(ngModel)]="myTime" (change)="changed()" [hourStep]="hstep" 
+            [minuteStep]="mstep" ></timepicker>
+		  </div>
+	<br><br>
+	</div>
+
+	
+
+  
+ 
